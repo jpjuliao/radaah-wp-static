@@ -38,11 +38,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <link rel="stylesheet" id="elementor-icons-css" href="/radaah-wp-static/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0" media="all">
 <link rel="stylesheet" id="swiper-css" href="/radaah-wp-static/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" media="all">
 <link rel="stylesheet" id="elementor-global-css" href="/radaah-wp-static/wp-content/uploads/elementor/css/global.css?ver=1709151193" media="all">
-<link rel="stylesheet" id="elementor-post-2-css" href="/radaah-wp-static/wp-content/uploads/elementor/css/post-2.css?ver=1709576174" media="all">
+<link rel="stylesheet" id="elementor-post-2-css" href="/radaah-wp-static/wp-content/uploads/elementor/css/post-2.css?ver=1709578689" media="all">
+<link rel="stylesheet" id="eael-general-css" href="/radaah-wp-static/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.9.10" media="all">
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="/radaah-wp-static/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="/radaah-wp-static/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<script src="/radaah-wp-static/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="/radaah-wp-static/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="/radaah-wp-static/index.php?rest_route=%2F">
 <link rel="alternate" type="application/json" href="/radaah-wp-static/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F2">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/radaah-wp-static/xmlrpc.php?rsd">
@@ -56,16 +59,55 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <link rel="icon" href="/radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold.png">
 <meta name="msapplication-TileImage" content="/radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<style id="wp-custom-css">body.home {
+	background: black;
+}
+
+section.home-hero {
+    background-attachment: fixed;
+}
+.header-logo .elementor-widget-container {
+    position:relative;
+}
+.header-logo .elementor-widget-container::before {
+    content: '';
+    background: url(/radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold-1024x114.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0% 10% 0% 10%;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    filter: brightness(0) blur(10px);
+    transform: scale(1);
+}
+.header-logo .elementor-widget-container img {
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-logo .elementor-widget-container::before {
+        margin: 0% 20% 0% 20%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header-logo .elementor-widget-container::before {
+        margin: 0% 25% 0% 25%;
+    }
+}</style>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
 <body class="home page-template page-template-elementor_canvas page page-id-2 wp-custom-logo elementor-default elementor-template-canvas elementor-kit-18 elementor-page elementor-page-2">
 			<div data-elementor-type="wp-page" data-elementor-id="2" class="elementor elementor-2">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-259c6c2 elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle elementor-section-items-top elementor-section-height-default" data-id="259c6c2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-259c6c2 elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle elementor-section-items-top home-hero elementor-section-height-default elementor-invisible" data-id="259c6c2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-26bcd62" data-id="26bcd62" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-9240e19 elementor-widget__width-initial header-logo elementor-widget elementor-widget-image" data-id="9240e19" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-element elementor-element-9240e19 elementor-widget__width-initial header-logo elementor-invisible elementor-widget elementor-widget-image" data-id="9240e19" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.13.1 - 09-05-2023 */
 .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img fetchpriority="high" decoding="async" width="800" height="89" src="/radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold-1024x114.png" class="attachment-large size-large wp-image-7" alt="" srcset="/radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold-1024x114.png 1024w, /radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold-300x33.png 300w, /radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold-768x85.png 768w, /radaah-wp-static/wp-content/uploads/2023/05/radaah-logo-gold.png 1141w" sizes="(max-width: 800px) 100vw, 800px">															</div>
@@ -293,10 +335,11 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 							</div>
 		</section>
 							</div>
-		<script src="/radaah-wp-static/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.0.1" id="hello-theme-frontend-js"></script>
+		<link rel="stylesheet" id="e-animations-css" href="/radaah-wp-static/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.13.1" media="all">
+<script src="/radaah-wp-static/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.0.1" id="hello-theme-frontend-js"></script>
+<script id="eael-general-js-extra">var localize = {"ajaxurl":"\/radaah-wp-static\/wp-admin\/admin-ajax.php","nonce":"679faf30fa","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"\/radaah-wp-static\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};</script>
+<script src="/radaah-wp-static/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.9.10" id="eael-general-js"></script>
 <script src="/radaah-wp-static/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.13.1" id="elementor-webpack-runtime-js"></script>
-<script src="/radaah-wp-static/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script src="/radaah-wp-static/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <script src="/radaah-wp-static/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.13.1" id="elementor-frontend-modules-js"></script>
 <script src="/radaah-wp-static/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="/radaah-wp-static/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
